@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.tabs > * {
+  padding-right: 50px;
+  padding-top: 7px;
+}
+
+.current {
+  padding-right: 50px;
+  border-top: 3px solid #3EC7BB;
+  padding-top: 7px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  justify-content: space-around;
+}
+
+.headerTab {
+  display: flex;
+  flex-direction: column;
+  flex: 2 1 90%;
+}
+
+.side {
+  display: flex;
+  flex-basis: 800px;
+  height: 100vh;
+  background-color: #383A3A;
+  flex: 1 2 10%;
+}
+
+@media screen and (max-width:850px){
+  .header {
+    flex-direction: column;
+  }
+}
+
+/* <div className="tabConversations current" onClick={this.activeTab}>Conversations</div>
+<div className="tabChannels" onClick={this.activeTab}>Channels</div>
+<div className="tabInsights" onClick={this.activeTab}>Insights</div>
+<div className="tabAlerts" onClick={this.activeTab}>Alerts</div>
+<div className="tabBias" onClick={this.activeTab}>Bias</div>
+<div className="tabReports" onClick={this.activeTab}>Reports</div> */
+
+
+
+
+
+
+
+
