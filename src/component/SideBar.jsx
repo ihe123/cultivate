@@ -9,7 +9,8 @@ class SideBar extends React.Component {
   render() {
     return (
       <div className="aside">
-        hey
+        <div></div>
+        <div></div>
       </div> 
     )
   }

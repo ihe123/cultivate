@@ -20,3 +20,4 @@ const IconLogout = props => {
 };
 
 export default IconLogout;
+

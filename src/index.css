@@ -54,11 +54,164 @@ body {
   flex: 1 2 10%;
 }
 
+.pointer:hover {
+  cursor: pointer;
+}
+
 @media screen and (max-width:850px){
   .header {
     flex-direction: column;
   }
 }
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.mainTitle {
+  display: flex;
+  flex-direction: row;
+  font-size: 26px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.questionAndSwitches {
+  display: flex;
+  justify-content: space-between;
+}
+
+.switchIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end space-between;
+  
+}
+
+.questionSub {
+  color: #AEAEAE;
+  font-size: 14px;
+}
+
+.questionBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.question {
+  align-items: flex-start;
+}
+
+.arrowIcons {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.leftSwitch, .rightSwitch {
+  padding: 5px;
+  color: #AEAEAE;
+}
+
+.hoverColor:hover {
+  color:#3EC7BB; 
+}
+
+.axis {
+  color: black;
+}
+
+.fullGraph {
+  display: flex;
+  width: 548px;
+ 
+}
+
+.sub {
+  display: flex;
+  justify-content: space-between;
+  width: 548px;
+}
+
+.graph {
+  margin-left: 100px;
+}
+
+.feel {
+  padding-left: 10px;
+}
+
+.colorAndFeel {
+  display: flex;
+}
+.percentAndCount {
+  display: flex;
+}
+
+.percent {
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 15px;
+  
+}
+
+.stat {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 14px;
+  
+}
+
+.tableStats {
+  width: 548px;
+  padding: 15px;
+  
+}
+
+#code {
+	width: 20px;
+	height: 20px;
+  border-radius: 50px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.respondents {
+  padding-left: 25px;
+}
+
+.yAxis line, path {
+  stroke: #AEAEAE;
+}
+
+.yAxis text {
+  fill: #AEAEAE;
+}
+
+
+
+
+
+
+
 
 /* <div className="tabConversations current" onClick={this.activeTab}>Conversations</div>
 <div className="tabChannels" onClick={this.activeTab}>Channels</div>
