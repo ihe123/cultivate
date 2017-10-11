@@ -2,7 +2,6 @@ import React from 'react';
 import { scaleLinear, scaleBand } from 'd3-scale';
 import { max } from 'd3-array';
 import { select, selectAll } from 'd3-selection';
-import '../index.css';
 import { axisLeft } from 'd3-axis';
 import { format } from 'd3-format';
 
@@ -81,15 +80,6 @@ class BarGraph extends React.Component {
       .call(yAxis)
       .attr("transform", "translate(" + padding + ", -" + 5+")")
       .classed("yAxis", true)
-
-    // selectAll("text")
-    //   .attr("fill", '#AEAEAE')
-
-    // selectAll("line")
-    //   .attr("stroke", "#AEAEAE")
-    
-    // selectAll("path")
-    //   .attr("stroke", "#AEAEAE")
   }
 
   render() {

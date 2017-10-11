@@ -1,6 +1,5 @@
 import React from 'react';
 import $ from 'jquery';
-import {Icons} from '../Constants.js';
 import IconSettings from './IconSettings.jsx';
 import IconLogout from './IconLogout.jsx';
 import IconSurvey from './IconSurvey.jsx';
@@ -12,8 +11,7 @@ class Header extends React.Component {
   }
 
   menu = () => {
-    console.log('take elsewhere');
-    //take to settings, logout, or 
+    //take to settings, logout, survey page 
   }
   
   render() {
@@ -23,9 +21,18 @@ class Header extends React.Component {
           <div>LIMITED ALPHA VERSION <div className="pointer" style={{color:'#3EC7BB'}}>FULL VERSION</div></div>
         </div>
         <div className="menu">
-          <div className="survey pointer" onClick={this.menu}>Survey<IconSurvey/></div>
-          <div className="settings pointer" onClick={this.menu}>Settings<IconSettings/></div>
-          <div className="logout pointer" onClick={this.menu}>Logout<IconLogout/></div>
+          <div className="survey pointer" onClick={this.menu}>
+            <div className="headerSub">Survey</div>
+            <IconSurvey/>
+          </div>
+          <div className="settings pointer" onClick={this.menu}>
+            <div className="headerSub">Settings</div>
+            <IconSettings/>
+          </div>
+          <div className="logout pointer" onClick={this.menu}>
+            <div className="headerSub">Logout</div>
+            <IconLogout/>
+          </div>
         </div>
       </div>
     )

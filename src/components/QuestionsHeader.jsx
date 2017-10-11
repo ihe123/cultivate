@@ -1,8 +1,7 @@
 import React from 'react';
 import Question from './Question.jsx';
-import RightLeftQuestions from './RightLeftQuestions.jsx';
-import IconLeft from './IconLeft.jsx';
 import IconRight from './IconRight.jsx';
+import IconLeft from './IconLeft.jsx';
 
 class QuestionsHeader extends React.Component {
   constructor(props) {
@@ -25,8 +24,12 @@ class QuestionsHeader extends React.Component {
           </div>
         </div>
         <div className="arrowIcons">
-          <div className="leftSwitch pointer hoverColor">{'<'+'-'}</div>
-          <div className="rightSwitch pointer hoverColor">{'-'+'>'}</div>
+          <div className="leftSwitch pointer hoverColor">
+            <IconLeft/>
+          </div>
+          <div className="rightSwitch pointer hoverColor">
+            <IconRight/>
+          </div>
         </div>
       </div>
     )

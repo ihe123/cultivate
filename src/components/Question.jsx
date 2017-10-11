@@ -1,6 +1,4 @@
 import React from 'react';
-import IconRight from './IconRight.jsx';
-import IconLeft from './IconLeft.jsx';
 
 class Question extends React.Component {
   constructor(props) {
