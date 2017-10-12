@@ -9,7 +9,7 @@ const IconRight = props => {
           <g id="Individual-Question" transform="translate(-1355.000000, -265.000000)" fill="#000000">
               <g id="Open-Feedback" transform="translate(120.000000, 156.000000)">
                   <text id="→">
-                      <tspan x="1233" y="121">→</tspan>
+                      <tspan x="1233" y="122.5">→</tspan>
                   </text>
               </g>
           </g>

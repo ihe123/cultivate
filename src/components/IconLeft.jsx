@@ -9,7 +9,7 @@ const IconLeft = props => {
           <g id="Individual-Question" transform="translate(-1312.000000, -265.000000)" fill="#000000">
               <g id="Open-Feedback" transform="translate(120.000000, 156.000000)">
                   <text id="→-copy" transform="translate(1200.000000, 113.500000) scale(-1, 1) translate(-1200.000000, -113.500000) ">
-                      <tspan x="1190" y="121">→</tspan>
+                      <tspan x="1190" y="122.5">→</tspan>
                   </text>
               </g>
           </g>

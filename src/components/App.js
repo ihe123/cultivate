@@ -16,8 +16,13 @@ class App extends Component {
         <div className="headerTab">
           <Header/>
           <Tabs/>
-          <QuestionsHeader/>
-          <Graph/>
+          <div className="siteBackground">
+            <div className="mainTitle">Individual Question Results</div>
+            <div className="card">
+              <QuestionsHeader/>
+              <Graph/>
+            </div>
+          </div>
         </div>
       </div>
     );

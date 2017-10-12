@@ -13,7 +13,6 @@ class QuestionsHeader extends React.Component {
     return (
       <div className="questionsAndSwitches">
         <div className="questions">
-          <div className="mainTitle">Individual Question Results</div>
           <div className="mainContent">
             <div className="questionSub">Question:</div>
             <div>

@@ -8,12 +8,16 @@ class Question extends React.Component {
       <div className="questionBar">
         <div className="question" style={{fontSize:'20px'}}>{this.props.questions}</div> 
         <div className="arrowIcons">
-          <div className="leftSwitch pointer hoverColor">
-            <IconLeft/>
-          </div>
-          <div className="rightSwitch pointer hoverColor">
-            <IconRight/>
-          </div>
+            <div className="leftSwitch pointer hoverColor">
+              <div className="circleBorder">
+                <IconLeft/>
+              </div>
+            </div>
+            <div className="rightSwitch pointer hoverColor">
+              <div className="circleBorder">
+                <IconRight/>
+              </div>
+            </div>
         </div>
       </div>
     ) 
