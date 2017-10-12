@@ -2,7 +2,6 @@ import React from 'react';
 import Stat from './Stat.jsx';
 
 class TableStats extends React.Component {
-
   render() {
     return (
       <div className="tableStats">
@@ -19,5 +18,3 @@ class TableStats extends React.Component {
 }
 
 export default TableStats;
-
-//<Stat feel={data.key} percent={data.percent} count={data.value} color={this.props.colors[data]}

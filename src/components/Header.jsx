@@ -1,5 +1,4 @@
 import React from 'react';
-
 import IconSettings from './IconSettings.jsx';
 import IconLogout from './IconLogout.jsx';
 import IconSurvey from './IconSurvey.jsx';

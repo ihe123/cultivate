@@ -1,7 +1,6 @@
 import React from 'react';
 
 class Stat extends React.Component {
-
   render() {
     return (
       <div className="stat">

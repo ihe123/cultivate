@@ -3,7 +3,6 @@ import guy from '../assets/guy.png';
 import LogoCultivate from './LogoCultivate.jsx';
 
 class SideBar extends React.Component {
- 
   render() {
     return (
       <div className="aside">

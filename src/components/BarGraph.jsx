@@ -8,7 +8,6 @@ class BarGraph extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      
       colors: {
         'Strongly Disagree': '#00BF6F',
         'Disagree': '#507CB6',

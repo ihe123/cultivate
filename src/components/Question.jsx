@@ -3,7 +3,6 @@ import IconRight from './IconRight.jsx';
 import IconLeft from './IconLeft.jsx';
 
 class Question extends React.Component {
-
   render() {
     return(
       <div className="questionBar">

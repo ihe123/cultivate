@@ -1,7 +1,6 @@
 import React from 'react';
 import Tab from './Tab.jsx'
 
-
 class TabsMenu extends React.Component {
   constructor(props) {
     super(props);
@@ -32,7 +31,6 @@ class TabsMenu extends React.Component {
   }
 
   setActiveTab = (selectedTabId) => {
-    
     this.setState({
       activeTab: selectedTabId
     })
