@@ -6,8 +6,8 @@ const IconLogout = props => {
     <svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
       <desc>Created with Sketch.</desc>
       <defs></defs>
-      <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.200000018">
-          <g id="Header" transform="translate(-1307.000000, -28.000000)" fill-rule="nonzero" fill="#000000">
+      <g id="Symbols" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd" opacity="0.200000018">
+          <g id="Header" transform="translate(-1307.000000, -28.000000)" fillRule="nonzero" fill="#000000">
               <g id="Right-menu">
                   <g transform="translate(1012.000000, 24.000000)">
                       <g id="logout-variant" transform="translate(295.000000, 4.000000)">

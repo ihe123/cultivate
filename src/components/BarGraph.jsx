@@ -1,9 +1,8 @@
 import React from 'react';
 import { scaleLinear, scaleBand } from 'd3-scale';
 import { max } from 'd3-array';
-import { select, selectAll } from 'd3-selection';
+import { select } from 'd3-selection';
 import { axisLeft } from 'd3-axis';
-import { format } from 'd3-format';
 
 class BarGraph extends React.Component {
   constructor(props) {

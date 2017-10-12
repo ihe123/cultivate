@@ -1,5 +1,4 @@
 import React from 'react';
-import $ from 'jquery';
 import Tab from './Tab.jsx'
 
 

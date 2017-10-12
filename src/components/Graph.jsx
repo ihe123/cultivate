@@ -1,7 +1,6 @@
 import React from 'react';
 import BarGraph from './BarGraph.jsx';
 import TableStats from './TableStats.jsx';
-import Stat from './Stat.jsx';
 import Score from './Score.jsx';
 import Trend from './Trend.jsx';
 

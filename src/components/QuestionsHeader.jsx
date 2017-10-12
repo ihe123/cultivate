@@ -1,7 +1,5 @@
 import React from 'react';
 import Question from './Question.jsx';
-import IconRight from './IconRight.jsx';
-import IconLeft from './IconLeft.jsx';
 
 class QuestionsHeader extends React.Component {
   constructor(props) {
