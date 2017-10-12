@@ -2,7 +2,7 @@ import React from 'react';
 
 const LogoCultivate = props => {
   return (
-    <svg width="42px" height="44px" viewBox="0 0 42 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+    <svg width="42px" height="44px" viewBox="0 0 40 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
         <desc>Created with Sketch.</desc>
         <defs></defs>
         <g id="Symbols" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
