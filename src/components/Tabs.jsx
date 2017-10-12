@@ -7,20 +7,25 @@ class TabsMenu extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeTab: '',
+      activeTab: "Collaborators",
+      activeTabId: 0,
       data: [
-        {id: 0, name: 'Collaborators'},
-        {id: 1, name: 'Conversations'},
-        {id: 2, name: 'Channels'},
-        {id: 3, name: 'Insights'},
-        {id: 4, name: 'Alerts'},
-        {id: 5, name: 'Bias'},
-        {id: 6, name: 'Reports'}
+        {id: 0, name: "Collaborators"},
+        {id: 1, name: "Conversations"},
+        {id: 2, name: "Channels"},
+        {id: 3, name: "Insights"},
+        {id: 4, name: "Alerts"},
+        {id: 5, name: "Bias"},
+        {id: 6, name: "Reports"}
     ]
     };
 
     this.setActiveTab = this.setActiveTab.bind(this);
     this.isActive = this.isActive.bind(this);
+  }
+
+  componentDidMount() {
+    this.setActiveTab(this.state.activeTabId);
   }
 
   isActive = (id) => {
