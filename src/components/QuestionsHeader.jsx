@@ -16,19 +16,11 @@ class QuestionsHeader extends React.Component {
       <div className="questionsAndSwitches">
         <div className="questions">
           <div className="mainTitle">Individual Question Results</div>
-            <div className="mainContent">
-              <div className="questionSub">Question:</div>
-              <div className="switchQuestions">
-                <div><Question questions={this.state.questions}/></div>
-            </div>
-          </div>
-        </div>
-        <div className="arrowIcons">
-          <div className="leftSwitch pointer hoverColor">
-            <IconLeft/>
-          </div>
-          <div className="rightSwitch pointer hoverColor">
-            <IconRight/>
+          <div className="mainContent">
+            <div className="questionSub">Question:</div>
+            <div>
+              <Question questions={this.state.questions}/>
+            </div>   
           </div>
         </div>
       </div>

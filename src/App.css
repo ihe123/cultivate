@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
 .App-header {
   background-color: #222;
   height: 150px;
@@ -20,11 +15,6 @@
 
 .App-intro {
   font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
 
 .tabs {
@@ -64,7 +54,6 @@
   flex: 2 1 90%;
 }
 
-
 .side {
   display: flex;
   flex-direction: column;
@@ -102,12 +91,6 @@
   }
 }
 
-.questions {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
 
 .mainTitle {
   display: flex;
@@ -118,9 +101,6 @@
 }
 
 .mainContent {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   margin-left: 100px;
   margin-top: 50px;
 }
@@ -135,17 +115,19 @@
   flex-direction: row;
   align-items: flex-end;
   justify-content: flex-end space-between;
-  
 }
 
 .questionSub {
+  text-align: left;
   color: #AEAEAE;
   font-size: 14px;
+  padding-bottom: 5px;
 }
 
 .questionBar {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 45px;
 }
 
 .question {
@@ -155,7 +137,7 @@
 .arrowIcons {
   display: flex;
   justify-content: flex-end;
-  padding-right: 20px;
+  padding-right: 50px;
 }
 
 .leftSwitch, .rightSwitch {
@@ -174,7 +156,6 @@
 .fullGraph {
   display: flex;
   width: 548px;
- 
 }
 
 .sub {
@@ -185,8 +166,7 @@
 
 .bottom {
   margin-left: 100px;
-  display: flex;
-  
+  display: flex; 
 }
 
 .feel {
@@ -196,6 +176,7 @@
 .colorAndFeel {
   display: flex;
 }
+
 .percentAndCount {
   display: flex;
 }
@@ -203,22 +184,19 @@
 .percent {
   display: flex;
   justify-content: flex-start;
-  padding-right: 15px;
-  
+  padding-right: 15px; 
 }
 
 .stat {
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  font-size: 14px;
-  
+  font-size: 14px; 
 }
 
 .tableStats {
   width: 548px;
-  padding: 30px;
-  
+  padding: 30px; 
 }
 
 #code {
@@ -256,7 +234,6 @@
   height: 507px;
   justify-content: space-between;
   padding-left: 40px;
-  padding-right: 40px;
 }
 
 .donut {

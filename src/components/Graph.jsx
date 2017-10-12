@@ -9,9 +9,9 @@ class Graph extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      answered: 10157,
-      skipped: 22737,
-      total: 10157,
+      answered: "10,157",
+      skipped: "22,737",
+      total: "10,157",
       data: [
         {key:'Strongly Disagree', value: 943, percent: "9.28%"}, 
         {key:'Disagree', value: 1349, percent: "13.28%"},
