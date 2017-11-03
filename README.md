@@ -1,6 +1,6 @@
 Cultivate Dashboard
 
-This is a potential dashboard for Cultivate AI's Frontend Developer position.  
+Dashboard for Cultivate AI
 
 Getting Started
 
